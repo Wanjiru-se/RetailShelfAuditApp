@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="▥"
+        android:textSize="34sp"
+        android:textColor="#FFFFFF"
+        android:background="#E60023"
+        android:layout_marginBottom="28dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retail Shelf\nAudit"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Visibility Analysis System"
+        android:textSize="13sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="26dp"/>
+
+    <View
+        android:layout_width="32dp"
+        android:layout_height="2dp"
+        android:background="#E60023"
+        android:layout_marginBottom="26dp"/>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Capture, analyze, and report on product shelf visibility with precision."
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E60023"/>
+
+</LinearLayout>

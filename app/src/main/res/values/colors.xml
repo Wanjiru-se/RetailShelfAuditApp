@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Brand -->
+    <color name="primary_red">#E60023</color>
+
+    <!-- Background -->
+    <color name="background_white">#FFFFFF</color>
+
+    <!-- Cards -->
+    <color name="card_background">#F5F5F5</color>
+
+    <!-- Text -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#777777</color>
+
+    <!-- Status -->
+    <color name="success_green">#34C759</color>
+    <color name="warning_orange">#FF9500</color>
+
+    <!-- Error -->
+    <color name="error_background">#FFF1F1</color>
+    <color name="error_red">#D62828</color>
+
+    <!-- Divider -->
+    <color name="divider">#EAEAEA</color>
+
+</resources>

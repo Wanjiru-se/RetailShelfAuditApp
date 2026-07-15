@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp">
+
+    <TextView
+        android:id="@+id/txtReportId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report RPT-001"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24 June 2026"
+        android:textColor="#777777"
+        android:textSize="12sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/txtProductCounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coca-Cola: 8   Fanta: 5   Sprite: 3"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtEmptySpaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty Spaces: 2"
+        android:textColor="#E60023"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+</LinearLayout>
