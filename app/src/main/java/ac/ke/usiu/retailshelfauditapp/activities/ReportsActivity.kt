@@ -1,5 +1,6 @@
 package ac.ke.usiu.retailshelfauditapp.activities
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -20,6 +21,21 @@ class ReportsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         databaseHelper = DatabaseHelper(this)
+
+        // Takes the user directly back to the Home screen
+        binding.btnHome.setOnClickListener {
+            val homeIntent = Intent(
+                this,
+                HomeActivity::class.java
+            )
+
+            homeIntent.flags =
+                Intent.FLAG_ACTIVITY_CLEAR_TOP or
+                        Intent.FLAG_ACTIVITY_SINGLE_TOP
+
+            startActivity(homeIntent)
+            finish()
+        }
 
         val reportsList = databaseHelper.getAllReports()
 

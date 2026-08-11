@@ -24,11 +24,18 @@ class ReportAdapter(private val reports: ArrayList<Report>) :
     override fun onBindViewHolder(holder: ReportViewHolder, position: Int) {
         val report = reports[position]
 
+        val totalFacings =
+            report.cocaColaCount +
+                    report.fantaCount +
+                    report.spriteCount
+
         holder.binding.txtReportId.text = "Report ${report.reportId}"
         holder.binding.txtDate.text = report.date
         holder.binding.txtProductCounts.text =
             "Coca-Cola: ${report.cocaColaCount}   Fanta: ${report.fantaCount}   Sprite: ${report.spriteCount}"
-        holder.binding.txtEmptySpaces.text = "Empty Spaces: ${report.emptySpaces}"
+
+        holder.binding.txtEmptySpaces.text =
+            "Total Facings: $totalFacings"
     }
 
     override fun getItemCount(): Int {

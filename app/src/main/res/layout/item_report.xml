@@ -1,46 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="#F5F5F5"
-    android:padding="16dp"
-    android:layout_marginBottom="12dp">
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="#F7F7F7"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp"
+    app:strokeColor="#EEEEEE"
+    app:strokeWidth="1dp">
 
-    <TextView
-        android:id="@+id/txtReportId"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Report RPT-001"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:textColor="#000000" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:id="@+id/txtDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="24 June 2026"
-        android:textColor="#777777"
-        android:textSize="12sp"
-        android:layout_marginBottom="12dp" />
+        <!-- Report heading -->
+        <TextView
+            android:id="@+id/txtReportId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report RPT-001"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary" />
 
-    <TextView
-        android:id="@+id/txtProductCounts"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Coca-Cola: 8   Fanta: 5   Sprite: 3"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:layout_marginBottom="8dp" />
+        <!-- Report date -->
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 June 2026"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="14dp" />
 
-    <TextView
-        android:id="@+id/txtEmptySpaces"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Empty Spaces: 2"
-        android:textColor="#E60023"
-        android:textStyle="bold"
-        android:textSize="14sp" />
+        <!-- Product counts -->
+        <TextView
+            android:id="@+id/txtProductCounts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coca-Cola: 8   Fanta: 5   Sprite: 3"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
 
-</LinearLayout>
+        <!-- Small divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Total facings -->
+        <TextView
+            android:id="@+id/txtEmptySpaces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Facings: 16"
+            android:textColor="@color/primary_red"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

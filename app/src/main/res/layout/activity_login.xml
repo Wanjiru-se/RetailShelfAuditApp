@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#FFFFFF">
+
+    <!-- App icon -->
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="▥"
+        android:textSize="34sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/primary_red"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- App name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retail Shelf&#10;Audit"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Visibility Analysis System"
+        android:textSize="13sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="18dp"/>
+
+    <!-- Red divider -->
+    <View
+        android:layout_width="32dp"
+        android:layout_height="2dp"
+        android:background="@color/primary_red"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Login instruction -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in to continue"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="22dp"/>
+
+    <!-- Login -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/primary_button_background"
+        android:backgroundTint="@color/primary_red"
+        android:layout_marginBottom="18dp"/>
+
+    <!-- Register -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textSize="13sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_red"
+        android:padding="8dp"/>
+
+</LinearLayout>

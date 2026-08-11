@@ -5,20 +5,55 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/background_white"
-    android:padding="@dimen/screen_padding">
+    android:paddingStart="@dimen/screen_padding"
+    android:paddingEnd="@dimen/screen_padding"
+    android:paddingBottom="@dimen/screen_padding"
+    android:paddingTop="@dimen/spacing_large"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Saved Reports"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/text_primary"/>
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⌂  Home"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/primary_red"
+            android:backgroundTint="@color/background_white"
+            android:minHeight="40dp"
+            android:minWidth="0dp"/>
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Saved Reports"
-        android:textStyle="bold"
-        android:textSize="22sp"
-        android:textColor="@color/text_primary"
-        android:layout_marginBottom="@dimen/spacing_medium"/>
+        android:text="Review previously saved shelf audits"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="@dimen/spacing_large"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerReports"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>
