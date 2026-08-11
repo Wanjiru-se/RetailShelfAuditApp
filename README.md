@@ -20,15 +20,15 @@ The application is being developed as a Software Engineering Project using Andro
 - Navigate through the complete audit workflow
 - Generate audit reports (prototype)
 - Save reports locally using SQLite
-
-### Planned AI Features
-
 - Detect Coca-Cola products on retail shelves
 - Count product facings automatically
-- Identify empty shelf spaces
 - Display detection results with bounding boxes
 - Generate AI-powered audit reports
 - Store historical audit reports
+
+### Planned AI Features
+
+- Identify empty shelf spaces
 
 ---
 
@@ -45,8 +45,8 @@ The application is being developed as a Software Engineering Project using Andro
 
 - YOLOv8
 - Roboflow
-- Google Colab (planned)
-- TensorFlow Lite (planned)
+- Google Colab 
+- TensorFlow Lite 
 
 ### Version Control
 
@@ -123,6 +123,7 @@ app/
 ### Sprint 1 – Prototype
 
 - Home Screen
+- User authentication
 - Image Preview
 - Analysis Results
 - Audit Report
@@ -138,7 +139,7 @@ app/
 - Capture and upload testing
 - Retake functionality
 
-### Sprint 3 – AI Integration (In Progress)
+### Sprint 3 – AI Integration 
 
 - Dataset preparation
 - YOLOv8 training
@@ -171,7 +172,6 @@ git clone https://github.com/Wanjiru-se/RetailShelfAuditApp.git
 - Cloud report synchronization
 - Dashboard analytics
 - Multiple product categories
-- User authentication
 - Export reports as PDF
 
 ---
