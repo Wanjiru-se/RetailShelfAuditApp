@@ -194,6 +194,3 @@ git clone https://github.com/Wanjiru-se/RetailShelfAuditApp.git
 
 ---
 
-## License
-
-This project is developed for educational purposes as part of the Software Engineering Project course at USIU-Africa.
