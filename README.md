@@ -90,6 +90,24 @@ Image Preview
 ```
 
 ---
+## Screenshots
+
+<img width="1919" height="1079" alt="Screenshot 2026-08-14 125555" src="https://github.com/user-attachments/assets/19e1cf38-bb44-41bf-b66a-6eb5357bc6a6" />
+
+<img width="1916" height="1079" alt="Screenshot 2026-08-14 125708" src="https://github.com/user-attachments/assets/77ae374a-d3b8-4546-a488-7a3db699fbb7" />
+
+<img width="1919" height="1079" alt="Screenshot 2026-08-14 125730" src="https://github.com/user-attachments/assets/7492eb82-0974-4c0c-826d-03dda59677d9" />
+
+<img width="1919" height="1079" alt="Screenshot 2026-08-14 125759" src="https://github.com/user-attachments/assets/793df5bd-40a5-46fd-a032-0e973c0e8927" />
+
+<img width="1919" height="1079" alt="Screenshot 2026-08-14 125826" src="https://github.com/user-attachments/assets/3236ded7-0bb5-4c74-95b5-4808d672c96c" />
+
+<img width="1919" height="1079" alt="Screenshot 2026-08-14 125843" src="https://github.com/user-attachments/assets/e64e054f-226c-4f8f-b147-255587da35f2" />
+
+<img width="1919" height="1079" alt="Screenshot 2026-08-14 125858" src="https://github.com/user-attachments/assets/da1c8baf-b419-413d-8876-545feeeda9cc" />
+
+<img width="1919" height="1079" alt="Screenshot 2026-08-14 130228" src="https://github.com/user-attachments/assets/008211ca-1574-4050-a1a5-70e6195fc6c2" />
+
 
 ## Project Structure
 
@@ -167,7 +185,6 @@ git clone https://github.com/Wanjiru-se/RetailShelfAuditApp.git
 
 ## Future Improvements
 
-- Real-time object detection
 - Offline AI inference
 - Cloud report synchronization
 - Dashboard analytics
@@ -176,13 +193,6 @@ git clone https://github.com/Wanjiru-se/RetailShelfAuditApp.git
 
 ---
 
-## Author
-
-**Annlucy Wanjiru**
-
-Bachelor of Science in Information Technology
-
-USIU-Africa
 
 ---
 
