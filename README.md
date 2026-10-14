@@ -6,8 +6,6 @@ An Android application that uses Artificial Intelligence (YOLOv8) to automate re
 
 Retail shelf audits are commonly performed manually by merchandisers, making the process time-consuming, repetitive, and prone to human error. This project aims to simplify the auditing process by allowing users to capture or upload shelf images and automatically analyze product placement using computer vision.
 
-The application is being developed as a Software Engineering Project using Android Studio (Kotlin) and YOLOv8 object detection.
-
 ---
 
 ## Features
